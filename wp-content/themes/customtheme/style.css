@@ -1,0 +1,47 @@
+/*
+  Theme Name: Custom Theme
+  Theme URI: https://wordpress.org/
+  Author: Chris Bartlett
+  Author URI: http://www.cbartlett.co.uk/
+  Description: Custom theme tutorial
+  Version: 1.0
+  License: GNU General Public License v2 or later
+  License URI: http://www.gnu.org/licenses/gpl-2.0.html
+  Tags: blog
+  Text Domain: customtheme
+*/
+*
+
+/*--------------------------------------------------------------
+## CUSTOM CSS
+--------------------------------------------------------------*/
+
+
+/* ==== GENERAL ==== */
+
+body {
+  margin-top: 50px;
+  font-family: 'proxima-nova', 'Raleway', Helvetica, sans-serif;
+  font-size: 16px;
+  background: url('/wp-content/themes/bootstrap2wordpress/assets/img/tile.jpg') top left repeat;
+}
+
+.logged-in .navbar-fixed-top {
+  top:  32px;
+}
+
+
+
+
+
+/* ==== MEDIA QUERIES ==== */
+
+@media screen and (max-width : 991px) {
+
+}
+
+@media screen and (max-width : 782px) {
+  .logged-in .navbar-fixed-top {
+    top:  46px;
+  }
+}
